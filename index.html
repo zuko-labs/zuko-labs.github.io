@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zuko Labs • Options Sprint</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Options Sprint</h1>
+    <p>10-minute daily lessons for practical options trading skill.</p>
+    <p class="disclaimer">Educational only. Not financial advice.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Today’s Focus</h2>
+      <label for="daySelect">Pick your day:</label>
+      <select id="daySelect"></select>
+      <div id="lesson" class="lesson"></div>
+      <button id="completeBtn">Mark complete</button>
+      <p id="streakText"></p>
+    </section>
+
+    <section class="card">
+      <h2>Interactive Check</h2>
+      <div id="quiz"></div>
+      <button id="checkQuiz">Check answers</button>
+      <p id="quizResult"></p>
+    </section>
+
+    <section class="card">
+      <h2>AMD Short Prep (Next Week)</h2>
+      <ul>
+        <li>Define invalidation first (what price action proves you’re wrong).</li>
+        <li>Prefer risk-defined structures: <strong>bear put spread</strong> over naked short option.</li>
+        <li>Avoid entering right before earnings/news spikes unless that is your explicit setup.</li>
+        <li>Target one setup only: break of support + weak market breadth + rising IV.</li>
+        <li>Size so max loss is tolerable (&lt;1-2% account idea-level risk).</li>
+      </ul>
+      <label for="journal">Trade plan journal (saved in browser):</label>
+      <textarea id="journal" rows="7" placeholder="Entry trigger, invalidation, max loss, target, exit rules..."></textarea>
+      <button id="saveJournal">Save journal</button>
+      <p id="saveState"></p>
+    </section>
+  </main>
+
+  <footer>
+    <small>Built for Sharath • Keep it small, consistent, and evidence-based.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
