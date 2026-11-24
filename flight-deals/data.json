@@ -1,20 +1,111 @@
 {
   "route": "BLR-SFO",
   "currency": "USD",
-  "updatedAt": "2026-11-24T23:08:00Z",
+  "updatedAt": "2026-11-24T23:16:27Z",
   "windows": [
-    {"departDate":"2027-05-01","returnDate":"2027-05-25"},
-    {"departDate":"2027-05-02","returnDate":"2027-05-26"},
-    {"departDate":"2027-05-04","returnDate":"2027-05-25"},
-    {"departDate":"2027-05-05","returnDate":"2027-05-26"},
-    {"departDate":"2027-04-30","returnDate":"2027-05-21"}
+    {
+      "departDate": "2027-05-01",
+      "returnDate": "2027-05-25"
+    },
+    {
+      "departDate": "2027-05-02",
+      "returnDate": "2027-05-26"
+    },
+    {
+      "departDate": "2027-05-04",
+      "returnDate": "2027-05-25"
+    },
+    {
+      "departDate": "2027-05-05",
+      "returnDate": "2027-05-26"
+    },
+    {
+      "departDate": "2027-04-30",
+      "returnDate": "2027-05-21"
+    }
   ],
   "current": [
-    {"departDate":"2027-05-05","returnDate":"2027-05-26","airline":"Emirates","price":1366,"duration":"21h 45m","durationMinutes":1305,"stops":1,"preferred":true,"outbound":"4:45 AM BLR → 2:00 PM SFO","url":"https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA1LTA1agwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTI2agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"},
-    {"departDate":"2027-05-04","returnDate":"2027-05-25","airline":"Emirates","price":1367,"duration":"21h 45m","durationMinutes":1305,"stops":1,"preferred":true,"outbound":"4:45 AM BLR → 2:00 PM SFO","url":"https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA1LTA0agwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTI1agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"},
-    {"departDate":"2027-05-02","returnDate":"2027-05-26","airline":"Air France / Delta / KLM","price":1093,"duration":"23h 55m","durationMinutes":1435,"stops":1,"preferred":false,"outbound":"1:25 AM BLR → 12:50 PM SFO","url":"https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA1LTAyagwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTI2agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"},
-    {"departDate":"2027-05-01","returnDate":"2027-05-25","airline":"Air France / Delta / KLM","price":1203,"duration":"23h 55m","durationMinutes":1435,"stops":1,"preferred":false,"outbound":"1:25 AM BLR → 12:50 PM SFO","url":"https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA1LTAxagwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTI1agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"},
-    {"departDate":"2027-05-04","returnDate":"2027-05-25","airline":"Qatar Airways","price":1420,"duration":"22h 05m","durationMinutes":1325,"stops":1,"preferred":true,"outbound":"4:00 AM BLR → 1:35 PM SFO","url":"https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA1LTA0agwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTI1agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"}
+    {
+      "departDate": "2027-05-05",
+      "returnDate": "2027-05-26",
+      "airline": "Emirates",
+      "price": 1366,
+      "duration": "21h 45m",
+      "durationMinutes": 1305,
+      "stops": 1,
+      "preferred": true,
+      "outbound": "4:45 AM BLR \u2192 2:00 PM SFO",
+      "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA1LTA1agwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTI2agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"
+    },
+    {
+      "departDate": "2027-05-04",
+      "returnDate": "2027-05-25",
+      "airline": "Emirates",
+      "price": 1367,
+      "duration": "21h 45m",
+      "durationMinutes": 1305,
+      "stops": 1,
+      "preferred": true,
+      "outbound": "4:45 AM BLR \u2192 2:00 PM SFO",
+      "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA1LTA0agwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTI1agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"
+    },
+    {
+      "departDate": "2027-05-02",
+      "returnDate": "2027-05-26",
+      "airline": "Air France / Delta / KLM",
+      "price": 1093,
+      "duration": "23h 55m",
+      "durationMinutes": 1435,
+      "stops": 1,
+      "preferred": false,
+      "outbound": "1:25 AM BLR \u2192 12:50 PM SFO",
+      "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA1LTAyagwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTI2agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"
+    },
+    {
+      "departDate": "2027-05-01",
+      "returnDate": "2027-05-25",
+      "airline": "Air France / Delta / KLM",
+      "price": 1203,
+      "duration": "23h 55m",
+      "durationMinutes": 1435,
+      "stops": 1,
+      "preferred": false,
+      "outbound": "1:25 AM BLR \u2192 12:50 PM SFO",
+      "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA1LTAxagwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTI1agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"
+    },
+    {
+      "departDate": "2027-05-04",
+      "returnDate": "2027-05-25",
+      "airline": "Qatar Airways",
+      "price": 1420,
+      "duration": "22h 05m",
+      "durationMinutes": 1325,
+      "stops": 1,
+      "preferred": true,
+      "outbound": "4:00 AM BLR \u2192 1:35 PM SFO",
+      "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA1LTA0agwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTI1agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"
+    }
   ],
-  "history": [{"date":"2026-11-24","fares":[{"date":"2026-11-24","price":1366,"airline":"Emirates","departDate":"2027-05-05","returnDate":"2027-05-26"},{"date":"2026-11-24","price":1093,"airline":"Air France / Delta / KLM","departDate":"2027-05-02","returnDate":"2027-05-26"}]}]
+  "history": [
+    {
+      "date": "2026-11-24",
+      "fares": [
+        {
+          "date": "2026-11-24",
+          "price": 1366,
+          "airline": "Emirates",
+          "departDate": "2027-05-05",
+          "returnDate": "2027-05-26"
+        },
+        {
+          "date": "2026-11-24",
+          "price": 1093,
+          "airline": "Air France / Delta / KLM",
+          "departDate": "2027-05-02",
+          "returnDate": "2027-05-26"
+        }
+      ]
+    }
+  ],
+  "error": ""
 }
