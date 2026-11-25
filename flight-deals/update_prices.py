@@ -8,6 +8,7 @@ ROOT = Path(__file__).parent
 DATA = ROOT / "data.json"
 PREFERRED = ("Air India", "Emirates", "Qatar", "Etihad", "Turkish", "Singapore", "Cathay", "JAL", "Japan Airlines", "Korean", "ANA", "EVA")
 WINDOWS = [
+    ("2027-04-27", "2027-05-18"), ("2027-04-28", "2027-05-19"),
     ("2027-05-01", "2027-05-25"), ("2027-05-02", "2027-05-26"),
     ("2027-05-04", "2027-05-25"), ("2027-05-05", "2027-05-26"),
     ("2027-04-30", "2027-05-21"),

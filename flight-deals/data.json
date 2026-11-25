@@ -1,8 +1,16 @@
 {
   "route": "BLR-SFO",
   "currency": "USD",
-  "updatedAt": "2026-11-24T23:16:27Z",
+  "updatedAt": "2026-11-25T00:08:30Z",
   "windows": [
+    {
+      "departDate": "2027-04-27",
+      "returnDate": "2027-05-18"
+    },
+    {
+      "departDate": "2027-04-28",
+      "returnDate": "2027-05-19"
+    },
     {
       "departDate": "2027-05-01",
       "returnDate": "2027-05-25"
