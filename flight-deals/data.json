@@ -1,7 +1,7 @@
 {
   "route": "BLR-SFO",
   "currency": "USD",
-  "updatedAt": "2026-11-25T00:08:30Z",
+  "updatedAt": "2026-11-25T00:09:08Z",
   "windows": [
     {
       "departDate": "2027-04-27",
@@ -33,6 +33,30 @@
     }
   ],
   "current": [
+    {
+      "departDate": "2027-04-27",
+      "returnDate": "2027-05-18",
+      "airline": "Emirates",
+      "price": 1115,
+      "duration": "21h 45m",
+      "durationMinutes": 1305,
+      "stops": 1,
+      "preferred": true,
+      "outbound": "4:45 AM BLR → 2:00 PM SFO",
+      "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA0LTI3agwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTE4agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"
+    },
+    {
+      "departDate": "2027-04-28",
+      "returnDate": "2027-05-19",
+      "airline": "Emirates",
+      "price": 1283,
+      "duration": "21h 45m",
+      "durationMinutes": 1305,
+      "stops": 1,
+      "preferred": true,
+      "outbound": "4:45 AM BLR → 2:00 PM SFO",
+      "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI3LTA0LTI4agwIAxIIL20vMDljMTdyDAgDEggvbS8wZDZscBooEgoyMDI3LTA1LTE5agwIAxIIL20vMGQ2bHByDAgDEggvbS8wOWMxN0ABSAFwAYIBCwj___________8BmAEB&hl=en"
+    },
     {
       "departDate": "2027-05-05",
       "returnDate": "2027-05-26",
@@ -112,6 +136,13 @@
           "departDate": "2027-05-02",
           "returnDate": "2027-05-26"
         }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "fares": [
+        {"date":"2026-11-25","price":1115,"airline":"Emirates","departDate":"2027-04-27","returnDate":"2027-05-18"},
+        {"date":"2026-11-25","price":1283,"airline":"Emirates","departDate":"2027-04-28","returnDate":"2027-05-19"}
       ]
     }
   ],
